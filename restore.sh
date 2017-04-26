@@ -11,3 +11,5 @@ cd /
 
 FILE=$(find /home/$USER/Backups -type f -mtime 0)
 tar -xjpf $FILE -C /
+
+echo "Thank you, for using this program! :)"

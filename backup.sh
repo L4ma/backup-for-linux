@@ -12,3 +12,5 @@ SOURCE="$HOMEPATH"
 cd /
 
 tar -cjpf $BACKUP_DIR/backup-$DATE.tar.bz2 $SOURCE
+
+echo "Thank you, for using this program! :)"
