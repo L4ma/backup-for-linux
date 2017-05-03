@@ -1,7 +1,13 @@
 #!/bin/bash
 DATE=$(date +%Y-%m-%d-%H%M%S)
 
-mkdir /home/$USER/Backups
+if [ -d /home/$USER/Backups ]
+	then 
+	echo "Directory is already there."
+	else
+	mkdir /home/$USER/Backups
+	echo "It's create a directory..." 
+fi
 
 BACKUP_DIR="home/$USER/Backups"
 
