@@ -9,6 +9,12 @@ if [ -d /home/$USER/Backups ]
 	echo "It's create a directory..." 
 fi
 
+if [ -f $BACKUP_DIR/backup-$DATE.tar.bz2 ]
+	then 
+	exit
+	else
+	echo "It's an error with the backup!" >> log.txt
+
 BACKUP_DIR="home/$USER/Backups"
 
 HOMEPATH="home/$USER"
