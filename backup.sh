@@ -26,3 +26,7 @@ cd /
 tar -cjpf $BACKUP_DIR/backup-$DATE.tar.bz2 $SOURCE
 
 echo "Thank you, for using this program! :)"
+
+
+
+#Copyright by L4ma
