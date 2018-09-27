@@ -25,7 +25,7 @@ cd /
 
 tar -cjpf $BACKUP_DIR/backup-$DATE.tar.bz2 $SOURCE
 
-echo "Thank you, for using this program! :)"
+echo "Thank you, for using this program! by L4ma"
 
 
 
